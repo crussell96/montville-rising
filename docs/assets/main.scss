@@ -1,0 +1,176 @@
+---
+---
+
+@import "minima";
+
+// Live theme switcher (temporary — for previewing color options).
+// Remove the whole [data-theme] block + _includes/theme-switcher.html once
+// a final theme is picked, and just hardcode that theme's values instead.
+
+:root {
+  // Community Warm — current default
+  --header-bg: #3c5a3f;
+  --header-border: transparent;
+  --nav-text: #fdf6e3;
+  --nav-text-hover: #ffe890;
+  --link-color: #b5651d;
+}
+
+[data-theme="official-white"] {
+  --header-bg: #ffffff;
+  --header-border: #e2e2e2;
+  --nav-text: #2d567e;
+  --nav-text-hover: #056243;
+  --link-color: #056243;
+}
+
+[data-theme="official-navy"] {
+  --header-bg: #2d567e;
+  --header-border: transparent;
+  --nav-text: #ffffff;
+  --nav-text-hover: #a5c4da;
+  --link-color: #056243;
+}
+
+[data-theme="minima"] {
+  --header-bg: #fdfdfd;
+  --header-border: #e8e8e8;
+  --nav-text: #424242;
+  --nav-text-hover: #2a7ae2;
+  --link-color: #2a7ae2;
+}
+
+.site-header {
+  background-color: var(--header-bg);
+  border-top: 5px solid var(--header-border);
+  border-bottom: 1px solid var(--header-border);
+  min-height: auto;
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.site-title {
+  float: none;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.site-nav {
+  float: none;
+  line-height: normal;
+}
+
+.site-nav .page-link {
+  color: var(--nav-text) !important;
+}
+
+.site-nav .page-link:hover {
+  color: var(--nav-text-hover) !important;
+  text-decoration: none;
+}
+
+// White badge behind the logo so it stays visible against any header color
+.logo-badge {
+  background: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 28px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.site-logo {
+  height: 150px;
+  width: auto;
+  display: block;
+}
+
+@include media-query($on-palm) {
+  .site-logo {
+    height: 90px;
+  }
+  .logo-badge {
+    padding: 8px 16px;
+  }
+}
+
+.page-content a,
+.home a {
+  color: var(--link-color) !important;
+}
+
+// Home page: "What We Do" pillars
+.pillars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0 30px;
+}
+
+.pillar {
+  flex: 1 1 200px;
+  background: #f7f7f5;
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+
+.pillar h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.pillar p {
+  margin-bottom: 0;
+  font-size: $small-font-size;
+}
+
+// Home page: upcoming events box
+.upcoming-events {
+  background: #f7f7f5;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+}
+
+.upcoming-events ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.upcoming-events li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.upcoming-events li:last-child {
+  border-bottom: none;
+}
+
+// Floating theme-switcher widget styling
+.theme-switcher {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 999;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  font-family: $base-font-family;
+  font-size: 14px;
+}
+
+.theme-switcher label {
+  margin-right: 6px;
+  font-weight: 600;
+}
