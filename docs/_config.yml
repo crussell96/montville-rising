@@ -35,14 +35,15 @@ plugins:
 
 header_pages:
   - about.markdown
+  - resources.markdown
   - events.markdown
   - get-involved.markdown
 
 # Used by assets/js/upcoming-events.js on the home page to pull the next 3
 # events straight from Google Calendar. See docs/events.markdown for how the
 # calendar itself is set up.
-calendar_id: "a0029060b02b9a031a50505baa646c9aa814406e603b167451f2d2ac420d8cae@group.calendar.google.com"
-calendar_api_key: "AIzaSyBLHL_M_FqNL_qjsW2upc99dEI-w1XFd4I"
+calendar_id: "montvillerising@gmail.com"
+calendar_api_key: "AIzaSyBiXkzt4KKnJVlMtFLJj0jCAACOLadPyIM"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

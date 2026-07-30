@@ -23,7 +23,7 @@
     encodeURIComponent(calendarId) + '/events' +
     '?key=' + encodeURIComponent(apiKey) +
     '&timeMin=' + encodeURIComponent(timeMin) +
-    '&singleEvents=true&orderBy=startTime&maxResults=3';
+    '&singleEvents=true&orderBy=startTime&maxResults=5';
 
   fetch(url)
     .then(function (res) {

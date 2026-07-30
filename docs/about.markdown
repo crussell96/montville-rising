@@ -25,6 +25,26 @@ participants who advocate for a better society.
 
 Follow us on Instagram: [@vbmontvillerising](https://www.instagram.com/vbmontvillerising/)
 
+## What We Do
+
+<div class="pillars">
+  <div class="pillar">
+    <div class="pillar-photo" aria-hidden="true">[Add photo: Civic Engagement]</div>
+    <h3><span class="pillar-icon" aria-hidden="true">🗳️</span> Civic Engagement</h3>
+    <p>Peaceful, nonviolent action and community events that turn concern into participation.</p>
+  </div>
+  <div class="pillar">
+    <div class="pillar-photo" aria-hidden="true">[Add photo: Visibility Actions]</div>
+    <h3><span class="pillar-icon" aria-hidden="true">📣</span> Visibility Actions</h3>
+    <p>Visible messages in high-traffic spots — like highway overpasses — that spark public discourse.</p>
+  </div>
+  <div class="pillar">
+    <div class="pillar-photo" aria-hidden="true">[Add photo: Community]</div>
+    <h3><span class="pillar-icon" aria-hidden="true">🤝</span> Community</h3>
+    <p>A non-partisan, welcoming group for anyone who cares about democracy and the Constitution.</p>
+  </div>
+</div>
+
 ## History
 
 [ADD BACKGROUND — when/why the group formed, if useful to include]
