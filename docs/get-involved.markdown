@@ -6,8 +6,11 @@ permalink: /get-involved/
 
 ## Join Us
 
-[ADD HOW TO JOIN / VOLUNTEER — meetings to attend, sign-up form or email, social channels]
+1. Join the [Visibility Brigade](https://www.visibilitybrigade.com/) and meet us weekly, Wednesdays
+   at 4:30 PM during the summer.
+2. Check the [events calendar]({{ "/events/" | relative_url }}) for upcoming meetings and important events.
 
 ## Contact
 
-[ADD CONTACT EMAIL / METHOD]
+1. Email: [montvillerising@gmail.com](mailto:montvillerising@gmail.com)
+2. Instagram: [@vbmontvillerising](https://www.instagram.com/vbmontvillerising/?hl=en)

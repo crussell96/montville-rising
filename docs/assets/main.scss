@@ -6,45 +6,20 @@
 
 $heading-font: 'Poppins', #{$base-font-family};
 
-// Live theme switcher (temporary — for previewing color options).
-// Remove the whole [data-theme] block + _includes/theme-switcher.html once
-// a final theme is picked, and just hardcode that theme's values instead.
+// Safety net for the full-bleed-block technique used below (e.g. .quote-photo) —
+// prevents a stray horizontal scrollbar from sub-pixel width rounding.
+body {
+  overflow-x: hidden;
+}
 
+// Site color palette: Community Warm (final choice)
 :root {
-  // Community Warm — current default
   --header-bg: #3c5a3f;
   --header-border: transparent;
   --nav-text: #fdf6e3;
   --nav-text-hover: #ffe890;
   --link-color: #b5651d;
   --tint-bg: #faf6ee;
-}
-
-[data-theme="official-white"] {
-  --header-bg: #ffffff;
-  --header-border: #e2e2e2;
-  --nav-text: #2d567e;
-  --nav-text-hover: #056243;
-  --link-color: #056243;
-  --tint-bg: #f0f5f9;
-}
-
-[data-theme="official-navy"] {
-  --header-bg: #2d567e;
-  --header-border: transparent;
-  --nav-text: #ffffff;
-  --nav-text-hover: #a5c4da;
-  --link-color: #056243;
-  --tint-bg: #f0f5f9;
-}
-
-[data-theme="minima"] {
-  --header-bg: #fdfdfd;
-  --header-border: #e8e8e8;
-  --nav-text: #424242;
-  --nav-text-hover: #2a7ae2;
-  --link-color: #2a7ae2;
-  --tint-bg: #f5f5f5;
 }
 
 // Headings use a bolder display font throughout the site
@@ -92,6 +67,20 @@ h1, h2, h3, h4,
   text-decoration: none;
 }
 
+// Minima's mobile dropdown menu has a white background — our nav text color
+// (cream, for contrast against the dark header) is nearly invisible there,
+// so give the dropdown itself a dark background to match.
+@include media-query($on-palm) {
+  .site-nav {
+    background-color: var(--header-bg) !important;
+    border-color: var(--header-bg) !important;
+  }
+
+  .site-nav .menu-icon > svg {
+    fill: #ffffff !important;
+  }
+}
+
 // White badge behind the logo so it stays visible against any header color.
 // overflow: hidden lets us zoom the logo image past the badge's edges below,
 // so the circular artwork reads bigger without growing the box itself.
@@ -136,12 +125,13 @@ h1, h2, h3, h4,
 }
 
 // Full-bleed technique for elements that need a real background-image
-// (the box-shadow trick above only works for solid colors).
+// (the box-shadow trick above only works for solid colors). Margin-based
+// centering, rather than left:50%/transform, avoids sub-pixel edge cropping
+// on the background-image when a scrollbar is present.
 @mixin full-bleed-block {
   width: 100vw;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 
 // Home page: plain heading + intro, no colored band
@@ -213,6 +203,84 @@ h1, h2, h3, h4,
   margin-right: 6px;
 }
 
+// About page: top banner photo (community3.jpg is pre-cropped to 1600x312,
+// so aspect-ratio matches it exactly and cover never crops further).
+.page-banner {
+  @include full-bleed-block;
+  box-sizing: border-box;
+  aspect-ratio: 1600 / 312;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+// Photo carousel — used on the About page "What We Do" cards (bleeds to the
+// card's edges) and inside homepage accordion items (sits within padding).
+.photo-carousel {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  margin: -16px -20px 12px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  background: #222;
+}
+
+.focus-accordion-body .photo-carousel {
+  margin: 8px 0 12px;
+  border-radius: 8px;
+}
+
+.carousel-track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-arrow:hover {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.carousel-prev {
+  left: 8px;
+}
+
+.carousel-next {
+  right: 8px;
+}
+
 .pillar h3 {
   margin-top: 0;
   margin-bottom: 8px;
@@ -221,6 +289,31 @@ h1, h2, h3, h4,
 .pillar p {
   margin-bottom: 0;
   font-size: $small-font-size;
+}
+
+.pillar-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.pillar-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--tint-bg);
+  color: var(--link-color) !important;
+  font-weight: 600;
+  font-size: $small-font-size;
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-decoration: none !important;
+  transition: filter 0.15s ease-in-out;
+}
+
+.pillar-links a:hover {
+  filter: brightness(0.95);
 }
 
 // Home page: pull-quote
@@ -240,6 +333,7 @@ h1, h2, h3, h4,
 // so cover never crops anything further.
 .quote-photo {
   @include full-bleed-block;
+  box-sizing: border-box;
   aspect-ratio: 2048 / 460;
   background-size: cover;
   background-position: center;
@@ -247,8 +341,21 @@ h1, h2, h3, h4,
   align-items: center;
   justify-content: center;
   padding: 20px;
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
   position: relative;
+}
+
+@include media-query($on-palm) {
+  // Locked to the image's aspect ratio, this gets too short to read on
+  // narrow phones. Taller box + contain (not cover) shows the whole photo,
+  // letterboxed with the header color, instead of cropping the sides.
+  .quote-photo {
+    min-height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--header-bg);
+  }
 }
 
 .quote-photo::before {
@@ -268,6 +375,37 @@ h1, h2, h3, h4,
   font-size: 1.6rem;
   padding: 0 20px;
   margin: 0;
+}
+
+.quote-line {
+  display: block;
+}
+
+@include media-query($on-palm) {
+  // On mobile the photo is letterboxed with green bars top/bottom (see the
+  // .quote-photo override above) — split the quote across those two bars
+  // instead of overlapping the photo itself.
+  .pull-quote-onphoto {
+    position: absolute;
+    inset: 0;
+    max-width: none;
+    padding: 8px 12px;
+    font-size: 1.25rem;
+  }
+
+  .quote-line-1 {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    right: 12px;
+  }
+
+  .quote-line-2 {
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+    right: 12px;
+  }
 }
 
 // Call-to-action button
@@ -393,30 +531,13 @@ h1, h2, h3, h4,
   font-weight: 700;
 }
 
-// Resources page: link under each card
-.resource-link {
-  display: inline-block;
-  margin-top: 8px;
-  font-weight: 600;
-  font-size: $small-font-size;
+// Resources page: category groups (each contains its own accordion)
+.resource-category {
+  margin-bottom: 28px;
 }
 
-// Floating theme-switcher widget styling
-.theme-switcher {
-  position: fixed;
-  bottom: 16px;
-  right: 16px;
-  z-index: 999;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  padding: 8px 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  font-family: $base-font-family;
-  font-size: 14px;
-}
-
-.theme-switcher label {
-  margin-right: 6px;
-  font-weight: 600;
+.resource-category-title {
+  border-bottom: 2px solid var(--link-color);
+  padding-bottom: 8px;
+  margin-bottom: 12px;
 }

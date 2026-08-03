@@ -14,7 +14,8 @@ layout: home
 <section class="quote-photo"
          style="background-image: url('{{ "/images/weareamericans_wide.jpg" | relative_url }}');">
   <blockquote class="pull-quote pull-quote-onphoto">
-    We disrupt apathy, spark public discourse, and defend democratic values.
+    <span class="quote-line quote-line-1">We disrupt apathy, spark public discourse,</span>
+    <span class="quote-line quote-line-2">and defend democratic values.</span>
   </blockquote>
 </section>
 
@@ -69,11 +70,7 @@ layout: home
               </div>
             </div>
           </li>
-          <li>
-            Join the Indivisible
-            <a href="https://indivisible.org/events/hands-off-our-vote-2/" target="_blank" rel="noopener">Hands Off Our Vote kickoff call</a>
-            on 7/30 at 8PM.
-          </li>
+
         </ul>
       </div>
     </details>
@@ -81,20 +78,26 @@ layout: home
       <summary><span class="pillar-icon" aria-hidden="true">⚠️</span> Delaney Hall</summary>
       <div class="focus-accordion-body">
         <p>The detainees at Delaney Hall still need our assistance. [ADD MORE INFO]</p>
+        <div class="photo-carousel" data-interval="4000">
+          <div class="carousel-track">
+            <img src="{{ "/images/delaney/DSC_0380.JPG" | relative_url }}" alt="Delaney Hall photo" class="carousel-slide active">
+            <img src="{{ "/images/delaney/DSC_0381.JPG" | relative_url }}" alt="Delaney Hall photo" class="carousel-slide">
+            <img src="{{ "/images/delaney/DSC_0448.JPG" | relative_url }}" alt="Delaney Hall photo" class="carousel-slide">
+            <img src="{{ "/images/delaney/DSC_0531.JPG" | relative_url }}" alt="Delaney Hall photo" class="carousel-slide">
+          </div>
+          <button type="button" class="carousel-arrow carousel-prev" aria-label="Previous photo">&#10094;</button>
+          <button type="button" class="carousel-arrow carousel-next" aria-label="Next photo">&#10095;</button>
+        </div>
       </div>
     </details>
     <details class="focus-accordion-item">
       <summary><span class="pillar-icon" aria-hidden="true">🏛️</span> Montville Township Committee</summary>
       <div class="focus-accordion-body">
         <p>
-          Emily Ryzuk and Shari Seffer are running for Montville Township Committee. Join their
-          campaign kickoff on Sunday, August 2 from 7–9 PM at the Black Rabbit Saloon.
+          Emily Ryzuk and Shari Seffer are running for Montville Township Committee. Find more information
+          <a href="https://www.montvillenjdems.org/httpswwwweeblycomeditormainphp.html" target="_blank" rel="noopener">here</a>.
         </p>
-        <a href="{{ "/images/SheriKickoff.jpg" | relative_url }}" target="_blank" rel="noopener">
-          <img src="{{ "/images/SheriKickoff.jpg" | relative_url }}"
-               alt="Campaign kickoff flyer for Emily Ryzuk and Shari Seffer, Sunday August 2, 7-9pm at Black Rabbit Saloon"
-               class="focus-flyer">
-        </a>
+
       </div>
     </details>
   </div>
@@ -108,3 +111,4 @@ layout: home
 </section>
 
 <script src="{{ "/assets/js/upcoming-events.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/photo-carousel.js" | relative_url }}"></script>
