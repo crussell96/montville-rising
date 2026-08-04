@@ -45,6 +45,7 @@ h1, h2, h3, h4,
   gap: 12px;
   padding-top: 14px;
   padding-bottom: 14px;
+  max-width: calc(#{$content-width} + 120px);
 }
 
 .site-title {
@@ -56,9 +57,6 @@ h1, h2, h3, h4,
 .site-nav {
   float: none;
   line-height: normal;
-  flex: 1 1 auto;
-  min-width: 0;
-  text-align: right;
 }
 
 .site-nav .page-link {
