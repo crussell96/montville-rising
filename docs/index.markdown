@@ -108,6 +108,7 @@ layout: home
   <h2>Get Involved</h2>
   <p>Want to join us?</p>
   <a class="btn" href="{{ "/get-involved/" | relative_url }}">See How to Get Involved</a>
+  <p><a href="https://www.bonfire.com/store/vbmr/" target="_blank" rel="noopener">Shop our store &rarr;</a></p>
 </section>
 
 <script src="{{ "/assets/js/upcoming-events.js" | relative_url }}"></script>
