@@ -40,9 +40,9 @@ h1, h2, h3, h4,
 .site-header .wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 24px;
   padding-top: 14px;
   padding-bottom: 14px;
   max-width: calc(#{$content-width} + 120px);
