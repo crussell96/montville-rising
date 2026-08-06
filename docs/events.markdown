@@ -68,6 +68,9 @@ Upcoming events and meetings — the calendar below updates automatically as eve
         Email <a href="mailto:montvillerising@gmail.com?subject=Add%20me%20to%20the%20speakers%20list">montvillerising@gmail.com</a>
         with the subject line "Add me to the speakers list" to join.
       </p>
+      <p>
+        <a href="{{ "/policy-7523-win/" | relative_url }}">Read the original announcement page &rarr;</a>
+      </p>
     </div>
   </details>
 </div>

@@ -24,8 +24,8 @@ description: >-
   Montville Rising, in partnership with the local chapter of the
   Visibility Brigade, is a local community activist group. Find our
   mission, upcoming events, and how to get involved.
-baseurl: "/montville-rising" # repo name — required since this isn't a crussell96.github.io repo
-url: "https://crussell96.github.io" # switch to "https://www.montville-rising.org" (and clear baseurl) once the custom domain is ready
+baseurl: "" # cleared now that the custom domain serves from the root
+url: "https://www.montville-rising.org"
 instagram_username: vbmontvillerising
 
 # Build settings
