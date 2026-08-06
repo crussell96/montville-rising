@@ -426,8 +426,64 @@ h1, h2, h3, h4,
   color: #ffffff !important;
 }
 
+button.btn {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button.btn:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
 .btn:hover {
   filter: brightness(0.9);
+}
+
+// Get Involved page: contact form
+.contact-form {
+  max-width: 480px;
+  margin-top: 12px;
+}
+
+.contact-form-field {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-field label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.contact-form-field input,
+.contact-form-field textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form-honeypot {
+  display: none;
+}
+
+.contact-form-status {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.contact-form-status-success {
+  color: #2e7d32;
+}
+
+.contact-form-status-error {
+  color: #c62828;
 }
 
 // Home page: upcoming events box
@@ -530,6 +586,86 @@ h1, h2, h3, h4,
   left: 0;
   color: var(--link-color);
   font-weight: 700;
+}
+
+.candidates-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.candidates-group {
+  flex: 1 1 220px;
+}
+
+.candidates-group-title {
+  font-family: $heading-font;
+  font-size: $small-font-size;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #666;
+  margin: 0 0 10px;
+}
+
+.candidate-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.candidate-photo-pair {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.candidate-photo-solo {
+  width: 100%;
+  max-width: 150px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  background: #e2e2e2;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.candidate-name {
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.election-countdown {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: var(--header-bg);
+  color: var(--nav-text);
+  border-radius: 8px;
+  padding: 14px 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.election-countdown-days {
+  font-family: $heading-font;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 1;
+  color: var(--nav-text-hover);
+}
+
+.election-countdown-label {
+  font-family: $heading-font;
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 
 // Resources page: category groups (each contains its own accordion)
