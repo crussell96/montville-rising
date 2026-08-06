@@ -82,7 +82,10 @@ layout: home
     <details class="focus-accordion-item">
       <summary><span class="pillar-icon" aria-hidden="true">⚠️</span> Delaney Hall</summary>
       <div class="focus-accordion-body">
-        <p>The detainees at Delaney Hall still need our assistance. [ADD MORE INFO]</p>
+        <p>
+          The detainees at Delaney Hall still need our assistance.
+          <a href="https://food4nj.org/" target="_blank" rel="noopener">Check out food4nj.org to learn how to help.</a>.
+        </p>
         <div class="photo-carousel" data-interval="4000">
           <div class="carousel-track">
             <img src="{{ "/images/delaney/DSC_0380.JPG" | relative_url }}" alt="Delaney Hall photo" class="carousel-slide active">
@@ -111,6 +114,9 @@ layout: home
               <span class="candidate-name">Emily Ryzuk &amp; Shari Seffer</span>
               <a href="https://www.montvillenjdems.org/httpswwwweeblycomeditormainphp.html" target="_blank" rel="noopener">More info</a>
             </div>
+            <p class="candidate-news">
+              <a href="https://www.insidernj.com/a-look-at-montville/" target="_blank" rel="noopener">Check out this article on their campaign kickoff.</a>
+            </p>
           </div>
           <div class="candidates-group">
             <h3 class="candidates-group-title">Incumbents</h3>

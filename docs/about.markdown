@@ -1,12 +1,18 @@
 ---
 layout: page
 title: About
-heading: Who We Are
+hide_heading: true
 permalink: /about/
 ---
 
 <div class="page-banner"
      style="background-image: url('{{ "/images/picstocyclethrough/community/community3.jpg" | relative_url }}');"></div>
+
+<header class="post-header">
+  <h1 class="post-title">Who We Are</h1>
+</header>
+
+<section class="page-section" markdown="1">
 
 Montville Rising is a local community activist group, working together with the Montville
 chapter of the Visibility Brigade.
@@ -17,6 +23,10 @@ Montville Rising is a non-partisan community organization welcoming all dedicate
 and defense of the Constitution. We turn shared concern into visible, collective action by
 peaceful, nonviolent protest, civic engagement, and community events.
 
+</section>
+
+<section class="page-section section-tint" markdown="1">
+
 ## Visibility Brigade — Mission Statement
 
 The Visibility Brigade is a grassroots, non-partisan, volunteer group dedicated to preserving our
@@ -26,6 +36,10 @@ discourse, and defend democratic values. We transition people from passive obser
 participants who advocate for a better society.
 
 Follow us on Instagram: [@vbmontvillerising](https://www.instagram.com/vbmontvillerising/)
+
+</section>
+
+<section class="page-section" markdown="1">
 
 ## What We Do
 
@@ -79,3 +93,19 @@ Follow us on Instagram: [@vbmontvillerising](https://www.instagram.com/vbmontvil
 </div>
 
 <script src="{{ "/assets/js/photo-carousel.js" | relative_url }}"></script>
+
+</section>
+
+<section class="page-section section-tint" markdown="1">
+
+## Why We Protest
+
+People sometimes ask why we stand on the bridge every week. The answer is simple: we love this
+country, and we love democracy — and we believe both are under assault. We show up because staying
+silent isn't an option when the values that hold a democracy together are being tested. Standing
+together, visibly and peacefully, is how we say that we're paying attention, that we care, and that
+we're not going anywhere.
+
+<img src="{{ "/images/vb.jpeg" | relative_url }}" alt="Visibility Brigade members protesting on the bridge overpass" class="why-we-protest-photo">
+
+</section>

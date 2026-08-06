@@ -4,11 +4,45 @@ title: Get Involved
 permalink: /get-involved/
 ---
 
+<section class="page-section" markdown="1">
+
 ## Join Us
 
 1. Join the [Visibility Brigade](https://www.visibilitybrigade.com/) and meet us weekly, Wednesdays
    at 4:30 PM during the summer.
 2. Check the [events calendar]({{ "/events/" | relative_url }}) for upcoming meetings and important events.
+
+</section>
+
+<section class="page-section section-tint" markdown="1">
+
+## Partner Organizations
+
+<div class="partner-org-list">
+  <div class="partner-org-card">
+    <a href="https://firstfriendsnjny.org/" target="_blank" rel="noopener">
+      <img src="{{ "/images/firstfriendslogo.png" | relative_url }}" alt="First Friends of New Jersey & New York" class="partner-logo">
+    </a>
+    <p>
+      First Friends of New Jersey & New York works to bring justice to the immigration system.
+      <a href="https://firstfriendsnjny.org/" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
+    </p>
+  </div>
+  <div class="partner-org-card">
+    <a href="https://indivisible.org/" target="_blank" rel="noopener">
+      <img src="{{ "/images/indivisiblelogo.png" | relative_url }}" alt="Indivisible" class="partner-logo">
+    </a>
+    <p>
+      Indivisible is a nationwide movement of millions of people working to stop the rise of
+      authoritarianism in the US and to demand a real democracy.
+      <a href="https://indivisible.org/" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
+    </p>
+  </div>
+</div>
+
+</section>
+
+<section class="page-section" markdown="1">
 
 ## Contact
 
@@ -36,3 +70,5 @@ permalink: /get-involved/
 </form>
 
 <script src="{{ "/assets/js/contact-form.js" | relative_url }}"></script>
+
+</section>
