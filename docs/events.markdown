@@ -73,6 +73,18 @@ Upcoming events and meetings — the calendar below updates automatically as eve
       </p>
     </div>
   </details>
+  <details class="focus-accordion-item">
+    <summary>ICE Out for Good — 1/11/2026</summary>
+    <div class="focus-accordion-body">
+      <p>
+        Around 60 people joined the "ICE Out for Good Montville" action on 1/11/2026. Thank you to
+        everyone who came out to stand up and speak out.
+      </p>
+      <p>
+        <a href="https://www.instagram.com/reels/DTZFA7bCbb6/" target="_blank" rel="noopener">Watch the recap on Instagram &rarr;</a>
+      </p>
+    </div>
+  </details>
 </div>
 
 </section>

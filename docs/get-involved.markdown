@@ -38,6 +38,16 @@ permalink: /get-involved/
       <a href="https://indivisible.org/" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
     </p>
   </div>
+  <div class="partner-org-card">
+    <a href="https://www.gardenstateequality.org/" target="_blank" rel="noopener">
+      <img src="{{ "/images/gardenstateequality.png" | relative_url }}" alt="Garden State Equality" class="partner-logo">
+    </a>
+    <p>
+      Garden State Equality is New Jersey's largest LGBTQ+ advocacy organization, working to
+      advance equality and justice for all.
+      <a href="https://www.gardenstateequality.org/" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
+    </p>
+  </div>
 </div>
 
 </section>
