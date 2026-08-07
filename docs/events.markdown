@@ -71,6 +71,10 @@ Upcoming events and meetings — the calendar below updates automatically as eve
       <p>
         <a href="{{ "/policy-7523-win/" | relative_url }}">Read the original announcement page &rarr;</a>
       </p>
+      <div class="photo-pair">
+        <img src="{{ "/images/boe1.jpeg" | relative_url }}" alt="Board of Education meeting photo">
+        <img src="{{ "/images/boe2.jpeg" | relative_url }}" alt="Board of Education meeting photo">
+      </div>
     </div>
   </details>
   <details class="focus-accordion-item">

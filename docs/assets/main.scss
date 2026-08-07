@@ -224,6 +224,19 @@ h1, h2, h3, h4,
   margin-top: 16px;
 }
 
+// Two photos shown side by side inside an accordion body.
+.photo-pair {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0 12px;
+}
+
+.photo-pair img {
+  width: 50%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 // Photo carousel — used on the About page "What We Do" cards (bleeds to the
 // card's edges) and inside homepage accordion items (sits within padding).
 .photo-carousel {
