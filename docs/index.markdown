@@ -24,6 +24,12 @@ layout: home
   <span class="election-countdown-label">days until the November 3, 2026 election</span>
 </section>
 
+<div class="take-action-box">
+  <h3>Take Action Now</h3>
+  <a class="btn" href="https://redwineblue.controlshift.app/petitions/ice-out-of-new-jersey-calling-on-governor-sherrill-to-take-action" target="_blank" rel="noopener">Sign this petition urging Gov. Sherrill to take action against ICE</a>
+  <a class="btn" href="https://act.indivisible.org/signup/tell-yale-dont-cave-trump" target="_blank" rel="noopener">Tell Yale: Don&rsquo;t Cave to Trump</a>
+</div>
+
 <section class="page-section section-tint compact">
   <h2>Upcoming Events &amp; Important Dates</h2>
 

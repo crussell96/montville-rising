@@ -589,6 +589,27 @@ button.btn:disabled {
   border-bottom: none;
 }
 
+.take-action-box {
+  background: var(--link-color);
+  border-radius: 8px;
+  padding: 16px 20px 20px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.take-action-box h3 {
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+
+.take-action-box a.btn {
+  margin: 6px;
+  padding: 8px 18px;
+  font-size: $small-font-size;
+  background: #ffffff;
+  color: var(--link-color) !important;
+}
+
 // "What We're Focused On" — 4 layout options (temporary, for comparison)
 // "What We're Focused On" — shared bits + accordion
 .qr-row {
