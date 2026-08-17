@@ -48,6 +48,16 @@ permalink: /get-involved/
       <a href="https://www.gardenstateequality.org/" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
     </p>
   </div>
+  <div class="partner-org-card">
+    <a href="https://www.facebook.com/BloomfieldImmigrantJusticeNetwork/" target="_blank" rel="noopener">
+      <img src="{{ "/images/bloomfieldnetwork.png" | relative_url }}" alt="Bloomfield Immigrant Justice Network" class="partner-logo" style="max-width: 180px;">
+    </a>
+    <p>
+      A coalition of Bloomfield residents stepping up to defend the rights of our immigrant community
+      and proactively curating a welcoming environment for all.
+      <a href="https://www.facebook.com/BloomfieldImmigrantJusticeNetwork/" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
+    </p>
+  </div>
 </div>
 
 </section>
