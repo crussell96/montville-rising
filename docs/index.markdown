@@ -26,7 +26,6 @@ layout: home
 
 <div class="take-action-box">
   <h3>Take Action Now</h3>
-  <a class="btn" href="https://redwineblue.controlshift.app/petitions/ice-out-of-new-jersey-calling-on-governor-sherrill-to-take-action" target="_blank" rel="noopener">Sign this petition urging Gov. Sherrill to take action against ICE</a>
   <a class="btn" href="https://act.indivisible.org/signup/tell-yale-dont-cave-trump" target="_blank" rel="noopener">Tell Yale: Don&rsquo;t Cave to Trump</a>
 </div>
 
