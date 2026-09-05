@@ -113,10 +113,35 @@ h1, h2, h3, h4,
   flex-shrink: 0;
 }
 
+// Shares .site-logo's box so both badges come out the same size. No zoom
+// here (unlike the circular logo above): this artwork runs to the edges of
+// its own frame, so any scale-up crops the M and the crowd beneath it.
 .site-logo-secondary {
-  height: 60px;
-  width: auto;
-  display: block;
+  transform: none;
+}
+
+// Between mobile and full desktop there isn't room for both badges plus the
+// whole nav on one line. Rather than stranding the second logo on a line of
+// its own, keep the two logos paired on the top row (pushed to opposite
+// edges, which is the point of the co-branding) and drop the nav beneath.
+@media (min-width: 601px) and (max-width: 1150px) {
+  .site-header .wrapper {
+    justify-content: space-between;
+  }
+
+  .site-logo {
+    height: 110px;
+  }
+
+  .logo-badge-secondary {
+    order: 2;
+  }
+
+  .site-nav {
+    order: 3;
+    flex-basis: 100%;
+    text-align: center;
+  }
 }
 
 @include media-query($on-palm) {
