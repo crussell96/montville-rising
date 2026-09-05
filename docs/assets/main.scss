@@ -38,6 +38,7 @@ h1, h2, h3, h4,
 }
 
 .site-header .wrapper {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -45,6 +46,7 @@ h1, h2, h3, h4,
   gap: 24px;
   padding-top: 14px;
   padding-bottom: 14px;
+  padding-right: 130px;
   max-width: calc(#{$content-width} + 120px);
 }
 
@@ -103,12 +105,35 @@ h1, h2, h3, h4,
   transform: scale(1.45);
 }
 
+// Co-branding badge for the partner org's logo. Positioned absolutely,
+// mirrored on the opposite side of the header from the main site logo, so
+// it stays put at the same vertical position regardless of how the nav
+// links wrap. Hidden on mobile, where the header is already tight.
+.logo-badge-secondary {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.site-logo-secondary {
+  height: 60px;
+  width: auto;
+  display: block;
+}
+
 @include media-query($on-palm) {
   .site-logo {
     height: 90px;
   }
   .logo-badge {
     padding: 8px 16px;
+  }
+  .logo-badge-secondary {
+    display: none;
+  }
+  .site-header .wrapper {
+    padding-right: 30px;
   }
 }
 
