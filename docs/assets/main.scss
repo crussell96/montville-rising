@@ -144,15 +144,18 @@ h1, h2, h3, h4,
   }
 }
 
+// On mobile both badges sit side by side in the space left of the hamburger
+// (the nav is absolutely positioned top-right here, so it stays clear of
+// them). Smaller badges and a tighter gap keep the pair off the menu icon.
 @include media-query($on-palm) {
+  .site-header .wrapper {
+    gap: 12px;
+  }
   .site-logo {
-    height: 90px;
+    height: 72px;
   }
   .logo-badge {
-    padding: 8px 16px;
-  }
-  .logo-badge-secondary {
-    display: none;
+    padding: 8px 12px;
   }
 }
 
