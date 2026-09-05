@@ -39,12 +39,32 @@
         return;
       }
 
+      var thisYear = new Date().getFullYear();
+
       items.forEach(function (event) {
-        var startValue = event.start.dateTime || event.start.date;
-        var date = new Date(startValue);
-        var dateLabel = event.start.dateTime
-          ? date.toLocaleString(undefined, { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })
-          : date.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
+        var isAllDay = !event.start.dateTime;
+        var date;
+
+        if (isAllDay) {
+          // An all-day event's 'YYYY-MM-DD' goes through the Date constructor as
+          // UTC midnight, which formats as the day before anywhere west of
+          // Greenwich — build the date in local time so it isn't off by one.
+          var parts = event.start.date.split('-');
+          date = new Date(+parts[0], +parts[1] - 1, +parts[2]);
+        } else {
+          date = new Date(event.start.dateTime);
+        }
+
+        // Spell out the year only when it isn't the current one, so instances of
+        // a yearly event aren't five identical-looking rows.
+        var opts = { weekday: 'short', month: 'short', day: 'numeric' };
+        if (date.getFullYear() !== thisYear) opts.year = 'numeric';
+        if (!isAllDay) {
+          opts.hour = 'numeric';
+          opts.minute = '2-digit';
+        }
+
+        var dateLabel = date.toLocaleString(undefined, opts);
 
         var li = document.createElement('li');
 
