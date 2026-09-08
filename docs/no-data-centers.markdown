@@ -4,7 +4,7 @@ title: No Data Centers
 permalink: /no-data-centers/
 ---
 
-<section class="page-section" markdown="1">
+<section class="page-section section-tint" markdown="1">
 
 Montville is being asked whether large-scale data centers should be allowed to be built
 here. We think the answer is no — and we're organizing to make that case to the Township
@@ -22,25 +22,6 @@ It is not an office park and not a factory. Almost nobody works there. A hypersc
 facility can draw as much electricity as a small city, and the costs of feeding it land on
 neighbors and on everyone else's utility bill. The profits leave town.
 
-</section>
-
-<section class="page-section section-tint">
-  <h2>Come Make Your Voice Heard</h2>
-
-  <!-- TODO: update this block after the Sept 8, 2026 meeting with the next
-       meeting date, or replace it with whatever the current ask is. -->
-  <div class="take-action-box">
-    <h3>Montville Township Committee Meeting</h3>
-    <p class="meeting-details">
-      September 8, 2026 &middot; 7:00 PM<br>
-      195 Changebridge Road, Montville, NJ 07045
-    </p>
-    <a class="btn" href="{{ "/events/" | relative_url }}">See the full calendar</a>
-  </div>
-
-  <img src="{{ "/images/nodatacenter.JPEG" | relative_url }}"
-       alt="Flyer: Do you oppose allowing data centers to be built in Montville? Come to the Montville Township Committee meeting September 8, 2026 at 7:00 PM, 195 Changebridge Road."
-       class="flyer-image">
 </section>
 
 <section class="page-section" markdown="1">
