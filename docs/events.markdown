@@ -24,6 +24,31 @@ Upcoming events and meetings — the calendar below updates automatically as eve
 
 <div class="focus-accordion">
   <details class="focus-accordion-item" open>
+    <summary>Concert Proceeds Donated to the First Aid Squad — September 2026</summary>
+    <div class="focus-accordion-body">
+      <p>
+        On September 3, 2026 we presented the proceeds from
+        <em>Rise Up, Sing Out! Concert for the First Amendment</em> — held June 14, 2026 and
+        streamed nationally — to the
+        <a href="https://montvillefas.org/" target="_blank" rel="noopener">Montville Township First Aid Squad</a>,
+        the all-volunteer squad that has answered medical emergencies here for more than 60
+        years and that came close to losing its funding in the spring.
+      </p>
+      <p>
+        "The Montville Township First Aid Squad is vital for the health of our community,"
+        as our spokesperson Neeke Swart put it.
+      </p>
+      <p>
+        <a href="https://patch.com/new-jersey/montville/montville-group-donates-concert-proceeds-first-aid-squad" target="_blank" rel="noopener">Read the coverage in Montville Patch &rarr;</a>
+      </p>
+      <p>
+        You can support the squad directly through their
+        <a href="https://montvillefas.org/make-a-contribution" target="_blank" rel="noopener">Make a Contribution</a>
+        page.
+      </p>
+    </div>
+  </details>
+  <details class="focus-accordion-item">
     <summary>No Kings 3 — 3/28/2026</summary>
     <div class="focus-accordion-body">
       <p>
