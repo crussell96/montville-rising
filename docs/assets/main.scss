@@ -45,10 +45,11 @@ h1, h2, h3, h4,
   gap: 24px;
   padding-top: 14px;
   padding-bottom: 14px;
-  // Wide enough for both logo badges plus the full nav on one line; below
-  // that width the row wraps normally (the second logo drops to its own
-  // line rather than leaving a gap next to the nav).
-  max-width: calc(#{$content-width} + 240px);
+  // Wide enough for both logo badges plus the full nav on one line: the two
+  // badges are 206px each, the nav ~692px, plus two 24px gaps = ~1152px.
+  // Re-measure and bump this (and the breakpoint below) when adding a nav
+  // item, or the row wraps and the badges end up stacked.
+  max-width: calc(#{$content-width} + 380px);
 }
 
 .site-title {
@@ -124,7 +125,7 @@ h1, h2, h3, h4,
 // whole nav on one line. Rather than stranding the second logo on a line of
 // its own, keep the two logos paired on the top row (pushed to opposite
 // edges, which is the point of the co-branding) and drop the nav beneath.
-@media (min-width: 601px) and (max-width: 1150px) {
+@media (min-width: 601px) and (max-width: 1240px) {
   .site-header .wrapper {
     justify-content: space-between;
   }
@@ -261,6 +262,23 @@ h1, h2, h3, h4,
   background-position: center;
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+// Portrait flyer/handbill scans — capped narrower than a landscape photo so a
+// tall page-height image doesn't push the rest of the section off-screen.
+.flyer-image {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  margin: 20px auto 0;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.meeting-details {
+  margin: 0 0 4px;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .why-we-protest-photo {

@@ -35,6 +35,7 @@ plugins:
 
 header_pages:
   - about.markdown
+  - no-data-centers.markdown
   - resources.markdown
   - events.markdown
   - get-involved.markdown
