@@ -46,10 +46,10 @@ h1, h2, h3, h4,
   padding-top: 14px;
   padding-bottom: 14px;
   // Wide enough for both logo badges plus the full nav on one line: the two
-  // badges are 206px each, the nav ~692px, plus two 24px gaps = ~1152px.
+  // badges are 206px each, the nav ~562px, plus two 24px gaps = ~1022px.
   // Re-measure and bump this (and the breakpoint below) when adding a nav
   // item, or the row wraps and the badges end up stacked.
-  max-width: calc(#{$content-width} + 380px);
+  max-width: calc(#{$content-width} + 240px);
 }
 
 .site-title {
@@ -125,7 +125,7 @@ h1, h2, h3, h4,
 // whole nav on one line. Rather than stranding the second logo on a line of
 // its own, keep the two logos paired on the top row (pushed to opposite
 // edges, which is the point of the co-branding) and drop the nav beneath.
-@media (min-width: 601px) and (max-width: 1240px) {
+@media (min-width: 601px) and (max-width: 1150px) {
   .site-header .wrapper {
     justify-content: space-between;
   }
