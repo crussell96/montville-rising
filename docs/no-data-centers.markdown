@@ -280,7 +280,7 @@ more resistant to a data center next door than to a reactor.
 
 ## What We're Asking For
 
-1. **Keep large-scale data centers out of Montville** — decided in the zoning code, not
+1. **Keep data centers out of Montville** — decided in the zoning code, not
    application by application.
 2. **No decisions without public numbers.** Any proposal should disclose its projected
    electricity demand, annual water draw, noise modeling and any tax abatement sought,
