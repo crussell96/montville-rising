@@ -22,6 +22,10 @@ It is not an office park and not a factory. Almost nobody works there. A hypersc
 facility can draw as much electricity as a small city, and the costs of feeding it land on
 neighbors and on everyone else's utility bill. The profits leave town.
 
+<img src="{{ "/images/nodatacenter.JPEG" | relative_url }}"
+     alt="Flyer: Do you oppose allowing data centers to be built in Montville? Come to the Montville Township Committee meeting September 8, 2026 at 7:00 PM, 195 Changebridge Road. No data centers — protect our community, protect our future."
+     class="flyer-image">
+
 </section>
 
 <section class="page-section" markdown="1">
