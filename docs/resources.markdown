@@ -50,6 +50,16 @@ category to expand it, then click an item for more details.
         </p>
       </div>
     </details>
+    <details class="focus-accordion-item">
+      <summary>3. Montville Township First Aid Squad</summary>
+      <div class="focus-accordion-body">
+        <p>
+          The <a href="https://montvillefas.org/" target="_blank" rel="noopener">Montville Township First Aid Squad</a>
+          is run by a dedicated group of volunteers.
+          <a href="https://montvillefas.org/make-a-contribution" target="_blank" rel="noopener">Go here to donate</a>.
+        </p>
+      </div>
+    </details>
   </div>
 </div>
 
