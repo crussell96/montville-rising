@@ -13,7 +13,7 @@ Committee.
 ## What Is a "Hyperscale" Data Center?
 
 When a developer looks at open land in a town like ours, they may see the site for a
-"data center." That term sounds clean and high-tech, and it hides what actually gets
+"data center." That term sounds clean and high-tech, but it hides what actually gets
 built: a windowless, warehouse-scale complex packed with thousands of computers running
 every hour of every day, surrounded by the substations, transformers, generator yards and
 cooling equipment needed to keep them running.
@@ -66,8 +66,10 @@ neighbors and on everyone else's utility bill. The profits leave town.
         while the grid still came up 6.8 gigawatts short of its own reliability target.
       </p>
       <p>
-        New Jersey households already felt this: bills rose by as much as 20% last summer
-        after a statewide supply auction that reflected those higher capacity costs.
+        New Jersey households already felt this. The statewide supply auction that took
+        effect <strong>June 1, 2025</strong> raised average residential bills by roughly
+        <strong>17% to 20%</strong> depending on utility territory — an increase the Board
+        of Public Utilities attributed largely to PJM capacity costs.
       </p>
       <p>
         There's a second cost besides the power itself. Serving a load this size means
@@ -122,9 +124,9 @@ neighbors and on everyone else's utility bill. The profits leave town.
       <p>
         Researchers at Caltech and UC Riverside put numbers to this in
         <a href="https://www.caltech.edu/about/news/air-pollution-and-the-public-health-costs-of-ai" target="_blank" rel="noopener">"The Unpaid Toll: Quantifying the Public Health Impact of AI"</a>.
-        Their projection for the United States by 2030: public health costs exceeding
-        <strong>$20 billion a year</strong>, roughly <strong>600,000 asthma-related symptom
-        cases</strong>, and as many as <strong>1,300 premature deaths annually</strong>.
+        Their projection for the United States by 2030: public health costs of about
+        <strong>$20 billion per year</strong>, and as many as <strong>1,300 premature
+        deaths per year</strong> (their estimated range is 940 to 1,590).
       </p>
       <p>
         The generator piece alone is significant. The same researchers estimate that backup
@@ -134,10 +136,17 @@ neighbors and on everyone else's utility bill. The profits leave town.
         ten times higher.
       </p>
       <p>
-        The study's authors also note these facilities are disproportionately sited near
-        lower-income and already-burdened communities, and they recommend requiring
-        operators to actually report the pollution their power use and generators cause.
-        That's a reasonable thing for Montville to ask for up front.
+        The authors also found this pollution "disproportionally affects certain low-income
+        communities," partly because of how close they are to the power plants and backup
+        generators involved. And they make a point worth sitting with: a data center pays
+        property taxes to the one county hosting it, but as co-author Shaolei Ren puts it,
+        the health impact "travels across the whole country, so those other places are not
+        compensated at all."
+      </p>
+      <p>
+        Their recommendation is that operators be required to actually report the air
+        pollution caused by their power consumption and their generators. That's a
+        reasonable thing for Montville to ask for up front.
       </p>
     </div>
   </details>
@@ -148,9 +157,8 @@ neighbors and on everyone else's utility bill. The profits leave town.
       <p>
         A data center is never idle. Cooling equipment, chillers and fans run around the
         clock, producing a persistent low-frequency hum that carries — the kind of noise that
-        is difficult to muffle and difficult to escape inside your own home. Communities
-        living next to these facilities elsewhere have made noise their single most common
-        complaint.
+        is difficult to muffle and difficult to escape inside your own home. Noise is among
+        the most common complaints from residents living beside these facilities elsewhere.
       </p>
       <p>
         Any specific facility's noise depends on its equipment and setbacks, which is why
@@ -301,7 +309,8 @@ land in our own township gets used.
 
 - [Monitoring Analytics on data centers and PJM capacity costs](https://jerseyvindicator.org/2026/07/20/the-vindicator-explains-data-centers-added-billions-to-the-cost-of-keeping-new-jerseys-electric-grid-reliable/) — Jersey Vindicator, July 2026
 - [Are Data Centers Raising Your Electric Bill? Mostly Not. Yet.](https://policylab.rutgers.edu/publication/are-data-centers-raising-your-electric-bill-mostly-not-yet/) — Rutgers New Jersey State Policy Lab
-- [The Unpaid Toll: Quantifying the Public Health Impact of AI](https://www.caltech.edu/about/news/air-pollution-and-the-public-health-costs-of-ai) — Caltech and UC Riverside (Shaolei Ren, Adam Wierman et al.)
+- [Air Pollution and the Public Health Costs of AI](https://www.caltech.edu/about/news/air-pollution-and-the-public-health-costs-of-ai) — Caltech, summarizing "The Unpaid Toll: Quantifying the Public Health Impact of AI" by Shaolei Ren (UC Riverside), Adam Wierman (Caltech) et al.
+- [New Jersey residential customers face 20% bill hikes, driven by PJM capacity prices](https://www.utilitydive.com/news/new-jersey-electric-bills-pjm-bpu-pseg-auction/740053/) — Utility Dive, on the auction effective June 1, 2025
 - [Americans Oppose AI Data Centers in Their Area](https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx) — Gallup, March 2026 (1,000 adults, &plusmn;4 pts)
 - [Data Center Bans Emerge in 4 More New Jersey Communities](https://www.govtech.com/artificial-intelligence/data-center-bans-emerge-in-4-more-new-jersey-communities) — Government Technology
 - [Data Centers: Local Finance Notice 2026-13](https://www.nj.gov/dca/dlgs/lfns/2026/2026-13.pdf) — NJ Division of Local Government Services
