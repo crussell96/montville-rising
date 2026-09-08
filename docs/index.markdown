@@ -26,6 +26,7 @@ layout: home
 
 <div class="take-action-box">
   <h3>Take Action Now</h3>
+  <a class="btn" href="{{ "/no-data-centers/" | relative_url }}">Say No to Data Centers in Montville</a>
   <a class="btn" href="https://act.indivisible.org/signup/tell-yale-dont-cave-trump" target="_blank" rel="noopener">Tell Yale: Don&rsquo;t Cave to Trump</a>
   <a class="btn" href="https://montvillefas.org/make-a-contribution" target="_blank" rel="noopener">Donate to the Montville Township First Aid Squad</a>
 </div>
