@@ -6,6 +6,10 @@ permalink: /no-data-centers/
 
 <section class="page-section section-tint" markdown="1">
 
+<img src="{{ "/images/montvilleresidents.png" | relative_url }}"
+     alt="Montville residents, please contact our Montville Township Committee members and ask them to pass an ordinance ASAP that only allows small, accessory (not principal use) data centers"
+     class="flyer-image">
+
 Montville is being asked whether large-scale data centers should be allowed to be built
 here. We think the answer is no — and we're organizing to make that case to the Township
 Committee.
@@ -21,10 +25,6 @@ cooling equipment needed to keep them running.
 It is not an office park and not a factory. Almost nobody works there. A hyperscale
 facility can draw as much electricity as a small city, and the costs of feeding it land on
 neighbors and on everyone else's utility bill. The profits leave town.
-
-<img src="{{ "/images/nodatacenter.JPEG" | relative_url }}"
-     alt="Flyer: Do you oppose allowing data centers to be built in Montville? Come to the Montville Township Committee meeting September 8, 2026 at 7:00 PM, 195 Changebridge Road. No data centers — protect our community, protect our future."
-     class="flyer-image">
 
 </section>
 

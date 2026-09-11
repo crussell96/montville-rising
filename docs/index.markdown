@@ -50,6 +50,20 @@ layout: home
 
   <div class="focus-accordion">
     <details class="focus-accordion-item" open>
+      <summary><span class="pillar-icon" aria-hidden="true">🚫</span> Keep Data Centers Out of Montville</summary>
+      <div class="focus-accordion-body">
+        <p>
+          Montville Rising is urging residents to speak out against a possible data center in
+          town, citing concerns over electricity and water costs, noise, and a limited number of
+          long-term jobs.
+          <a href="https://patch.com/new-jersey/montville/montville-group-calls-ban-data-centers" target="_blank" rel="noopener">Read the Patch article</a>.
+        </p>
+        <p>
+          <a href="{{ "/no-data-centers/" | relative_url }}">Learn more and take action &rarr;</a>
+        </p>
+      </div>
+    </details>
+    <details class="focus-accordion-item">
       <summary><span class="pillar-icon" aria-hidden="true">📣</span> Weekly Visibility Brigade Action</summary>
       <div class="focus-accordion-body">
         <p>Every Wednesday, 4:30–5:30 PM.</p>

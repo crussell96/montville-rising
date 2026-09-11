@@ -58,6 +58,24 @@ permalink: /get-involved/
       <a href="https://www.facebook.com/BloomfieldImmigrantJusticeNetwork/" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
     </p>
   </div>
+  <div class="partner-org-card">
+    <p>
+      <strong><a href="https://redwineblue.controlshift.app/groups/team-no-nonsense-north-jersey" target="_blank" rel="noopener">Team No Nonsense</a></strong><br>
+      Team No Nonsense is a community based in North Jersey focused on pro-democracy advocacy
+      and action at the national, state and local levels.
+      <a href="https://redwineblue.controlshift.app/groups/team-no-nonsense-north-jersey" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
+    </p>
+  </div>
+  <div class="partner-org-card">
+    <a href="https://www.facebook.com/share/g/1LoA7oCsTC/?mibextid=wwXIfr" target="_blank" rel="noopener">
+      <img src="{{ "/images/lanternleague.png" | relative_url }}" alt="The Lantern League" class="partner-logo">
+    </a>
+    <p>
+      The Lantern League is a network of committed, grassroots advocates, illuminating the way
+      forward in the darkest of times.
+      <a href="https://www.facebook.com/share/g/1LoA7oCsTC/?mibextid=wwXIfr" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
+    </p>
+  </div>
 </div>
 
 </section>
