@@ -14,7 +14,7 @@ it below. You can optionally include your name, or submit anonymously.
 <form id="forum-question-form" class="contact-form" data-formspree-url="https://formspree.io/f/xaeykgdq">
   <div class="contact-form-field">
     <label for="forum-question-name">Name (optional)</label>
-    <input type="text" id="forum-question-name" name="name">
+    <input type="text" id="forum-question-name" name="name" value="Anonymous">
   </div>
   <div class="contact-form-field">
     <label for="forum-question-question">Your Question</label>
