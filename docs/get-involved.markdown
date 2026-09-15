@@ -76,6 +76,15 @@ permalink: /get-involved/
       <a href="https://www.facebook.com/share/g/1LoA7oCsTC/?mibextid=wwXIfr" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
     </p>
   </div>
+  <div class="partner-org-card">
+    <a href="https://linktr.ee/sussexvisibilitybrigade" target="_blank" rel="noopener">
+      <img src="{{ "/images/sussexvb.png" | relative_url }}" alt="Sussex County Visibility Brigade" class="partner-logo" style="max-width: 180px;">
+    </a>
+    <p>
+      Sussex County Visibility Brigade brings visible, weekly community action to Sussex County.
+      <a href="https://linktr.ee/sussexvisibilitybrigade" target="_blank" rel="noopener">Learn more and get involved &rarr;</a>
+    </p>
+  </div>
 </div>
 
 </section>
