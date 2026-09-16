@@ -1,15 +1,22 @@
 ---
 layout: page
-title: Submit a Question
+title: Submit a Question for the Candidate Forum
 permalink: /submit-a-question/
+hide_heading: true
 ---
 
 <section class="page-section" markdown="1">
 
 ## Submit a Question for the Candidate Forum
 
-Have a question you'd like to see asked at our Township Committee candidate forum? Submit
-it below. You can optionally include your name, or submit anonymously.
+On October 21st, 2026 at 6:30pm the four candidates for the Montville Township Committee
+will have an opportunity to share their plans for the town.
+
+If you can't attend in person, the event will be livestreamed here (link coming soon) and
+recorded.
+
+Have a question you'd like to see asked at the forum? Submit it below. You can optionally
+include your name, or submit anonymously.
 
 <form id="forum-question-form" class="contact-form" data-formspree-url="https://formspree.io/f/xaeykgdq">
   <div class="contact-form-field">
