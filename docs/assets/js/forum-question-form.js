@@ -3,6 +3,7 @@
   if (!form) return;
 
   var url = form.getAttribute('data-formspree-url');
+  var thankYouUrl = form.getAttribute('data-thank-you-url');
   var status = form.querySelector('.contact-form-status');
   var submitButton = form.querySelector('button[type="submit"]');
 
@@ -21,6 +22,10 @@
       .then(function (response) {
         if (response.ok) {
           form.reset();
+          if (thankYouUrl) {
+            window.location.href = thankYouUrl;
+            return;
+          }
           status.textContent = 'Thanks — your question has been submitted!';
           status.classList.add('contact-form-status-success');
         } else {

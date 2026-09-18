@@ -34,6 +34,12 @@ layout: home
 <section class="page-section section-tint compact">
   <h2>Upcoming Events &amp; Important Dates</h2>
 
+  <p>
+    The candidate forum for the 2026 election for Montville Township Committee is on <strong>October 21st, 2026</strong>.
+    Have a question you'd like to ask?
+    <a href="{{ "/submit-a-question/" | relative_url }}">Submit one here</a> by <strong>October 1st</strong>.
+  </p>
+
   <section id="upcoming-events" class="upcoming-events"
            data-calendar-id="{{ site.calendar_id }}"
            data-api-key="{{ site.calendar_api_key }}">

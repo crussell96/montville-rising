@@ -808,6 +808,14 @@ button.btn:disabled {
   font-size: $small-font-size;
 }
 
+.thank-you-image {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 16px;
+}
+
 .election-countdown {
   display: flex;
   align-items: baseline;
