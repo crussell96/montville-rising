@@ -35,7 +35,7 @@ layout: home
   <h2>Upcoming Events &amp; Important Dates</h2>
 
   <div class="candidate-forum-announcement">
-    <a href="{{ "/images/candidateforumflyer.png" | relative_url }}" target="_blank" rel="noopener">
+    <a href="{{ "/images/candidateforumflyer.png" | relative_url }}" target="_blank" rel="noopener" class="candidate-forum-flyer-link">
       <img src="{{ "/images/candidateforumflyer.png" | relative_url }}" alt="Montville Township Committee Candidate Forum flyer" class="candidate-forum-flyer">
     </a>
     <div class="candidate-forum-text">

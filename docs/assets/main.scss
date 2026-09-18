@@ -714,8 +714,16 @@ button.btn:disabled {
   flex-wrap: wrap;
 }
 
-.candidate-forum-flyer {
+// Explicit flex-basis on the link (rather than letting it size from the
+// image's intrinsic dimensions) so the flyer reliably sits at 320px next
+// to the text instead of the browser occasionally sizing it full-width.
+.candidate-forum-flyer-link {
+  display: block;
+  flex: 0 1 320px;
   max-width: 320px;
+}
+
+.candidate-forum-flyer {
   width: 100%;
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
