@@ -707,6 +707,26 @@ button.btn:disabled {
   margin-top: 4px;
 }
 
+.candidate-forum-announcement {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.candidate-forum-flyer {
+  max-width: 320px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  display: block;
+}
+
+.candidate-forum-text {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+
 .focus-accordion-item {
   background: #ffffff;
   border-radius: 8px;
