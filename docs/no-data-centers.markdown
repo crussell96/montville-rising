@@ -273,7 +273,10 @@ more resistant to a data center next door than to a reactor.
 3. **Residents in the room.** Township Committee meetings are where this gets decided.
    Showing up is the whole ballgame.
 
-<p><a class="btn" href="{{ "/get-involved/" | relative_url }}">Get involved with Montville Rising</a></p>
+<p>
+  <a class="btn" href="https://www.montville-petition.org/" target="_blank" rel="noopener">Sign the Petition Against Data Centers</a>
+  <a class="btn" href="{{ "/get-involved/" | relative_url }}">Get involved with Montville Rising</a>
+</p>
 
 </section>
 

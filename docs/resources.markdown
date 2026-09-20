@@ -60,6 +60,16 @@ category to expand it, then click an item for more details.
         </p>
       </div>
     </details>
+    <details class="focus-accordion-item">
+      <summary>4. Say No to Data Centers in Montville</summary>
+      <div class="focus-accordion-body">
+        <p>
+          Learn why we're organizing against large-scale data center development in Montville,
+          and what you can do about it.
+          <a href="{{ "/no-data-centers/" | relative_url }}">Read more</a>.
+        </p>
+      </div>
+    </details>
   </div>
 </div>
 
