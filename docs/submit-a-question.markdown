@@ -15,7 +15,7 @@ will have an opportunity to share their plans for the town.
 If you can't attend in person, the event will be livestreamed at
 [youtube.com/live/C_8hAgwbdl0](https://www.youtube.com/live/C_8hAgwbdl0) and recorded.
 
-Have a question you'd like to see asked at the forum? Submit it below by **October 1st**. You
+Have a question you'd like to see asked at the forum? Submit it below by **October 3rd**. You
 can optionally include your name, or submit anonymously.
 
 <form id="forum-question-form" class="contact-form" data-formspree-url="https://formspree.io/f/xaeykgdq" data-thank-you-url="{{ "/thank-you/" | relative_url }}">

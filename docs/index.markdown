@@ -43,7 +43,7 @@ layout: home
         On <strong>October 21st, 2026</strong>, Montville Rising will host a forum where the candidates for
         Montville Township Committee will have the opportunity to make their case and answer questions from the
         community. Have a question you'd like to ask?
-        <a href="{{ "/submit-a-question/" | relative_url }}">Submit one here</a> by <strong>October 1st</strong>.
+        <a href="{{ "/submit-a-question/" | relative_url }}">Submit one here</a> by <strong>October 3rd</strong>.
         The event will also be streamed live
         <a href="https://www.youtube.com/live/C_8hAgwbdl0" target="_blank" rel="noopener">on YouTube</a>
         and recorded for later viewing.
