@@ -34,27 +34,6 @@ layout: home
 <section class="page-section section-tint compact">
   <h2>Upcoming Events &amp; Important Dates</h2>
 
-  <div class="candidate-forum-announcement">
-    <a href="{{ "/images/candidateforumflyer.png" | relative_url }}" target="_blank" rel="noopener" class="candidate-forum-flyer-link">
-      <img src="{{ "/images/candidateforumflyer.png" | relative_url }}" alt="Montville Township Committee Candidate Forum flyer" class="candidate-forum-flyer">
-    </a>
-    <div class="candidate-forum-text">
-      <p>
-        On <strong>October 21st, 2026</strong>, Montville Rising will host a forum where the candidates for
-        Montville Township Committee will have the opportunity to make their case and answer questions from the
-        community. Have a question you'd like to ask?
-        <a href="{{ "/submit-a-question/" | relative_url }}">Submit one here</a> by <strong>October 3rd</strong>.
-        The event will also be streamed live
-        <a href="https://www.youtube.com/live/C_8hAgwbdl0" target="_blank" rel="noopener">on YouTube</a>
-        and recorded for later viewing.
-      </p>
-      <p>
-        <strong>Where:</strong> Montville Senior Center, 356 Main Road, Montville, NJ 07045<br>
-        <strong>When:</strong> 6:30 PM
-      </p>
-    </div>
-  </div>
-
   <section id="upcoming-events" class="upcoming-events"
            data-calendar-id="{{ site.calendar_id }}"
            data-api-key="{{ site.calendar_api_key }}">
