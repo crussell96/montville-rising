@@ -14,26 +14,30 @@ permalink: /about/
 
 <section class="page-section" markdown="1">
 
-Montville Rising is a local community activist group, working together with the Montville
-chapter of the Visibility Brigade.
+Montville Rising is a local community activist group dedicated to civic engagement, protecting
+democratic values, and building a more informed and involved community. Through education and
+grassroots action, we create opportunities for people to learn about the issues that affect them,
+make their voices heard, and get involved. We also work closely with the Montville chapter of the
+Visibility Brigade to bring peaceful, pro-democracy messages into public spaces and encourage
+greater civic participation.
 
 ## Montville Rising — Mission Statement
 
-Montville Rising is a non-partisan community organization welcoming all dedicated to democracy
-and defense of the Constitution. We turn shared concern into visible, collective action by
-peaceful, nonviolent protest, civic engagement, and community events.
+Montville Rising is a grassroots, independent community organization that welcomes all who are
+dedicated to democracy and defending the Constitution. We turn shared concern into visible,
+collective action through peaceful, nonviolent protest, civic engagement, education, and
+community events.
 
 </section>
 
 <section class="page-section section-tint" markdown="1">
 
-## Visibility Brigade — Mission Statement
+## Montville Visibility Brigade — Mission Statement
 
-The Visibility Brigade is a grassroots, non-partisan, volunteer group dedicated to preserving our
-democracy. We mobilize our neighbors by visually displaying messages in high-traffic spaces, such
-as highway overpasses, that address the crisis facing our nation. We disrupt apathy, spark public
-discourse, and defend democratic values. We transition people from passive observers to active
-participants who advocate for a better society.
+Montville Visibility Brigade is a local chapter of the national [Visibility Brigade](https://www.visibilitybrigade.com/){:target="_blank" rel="noopener"} movement,
+dedicated to defending democracy through visible, nonviolent public messaging. We mobilize our
+neighbors, disrupt apathy, spark conversation, and inspire people to become active participants
+in protecting our democracy.
 
 Follow us on Instagram: [@vbmontvillerising](https://www.instagram.com/vbmontvillerising/)
 
@@ -101,10 +105,17 @@ Follow us on Instagram: [@vbmontvillerising](https://www.instagram.com/vbmontvil
 ## Why We Protest
 
 People sometimes ask why we stand on the bridge every week. The answer is simple: we love this
-country, and we love democracy — and we believe both are under assault. We show up because staying
-silent isn't an option when the values that hold a democracy together are being tested. Standing
-together, visibly and peacefully, is how we say that we're paying attention, that we care, and that
-we're not going anywhere.
+country, we believe in democracy, and we believe it is under threat.
+
+We show up because silence isn’t an option. By standing together, visibly and peacefully, we remind
+our neighbors they are not alone—that people in their own community are paying attention, speaking
+up, and standing up for our democracy.
+
+Harvard political scientist Erica Chenoweth alleges that
+[when 3.5% of a population actively engages in resistance](https://www.hks.harvard.edu/sites/default/files/2024-05/Erica%20Chenoweth_2020-005.pdf){:target="_blank" rel="noopener"},
+one can reasonably expect
+[meaningful political change](https://www.bbc.com/future/article/20190513-it-only-takes-35-of-people-to-change-the-world){:target="_blank" rel="noopener"}.
+Join us!
 
 <img src="{{ "/images/vb.jpeg" | relative_url }}" alt="Visibility Brigade members protesting on the bridge overpass" class="why-we-protest-photo">
 
