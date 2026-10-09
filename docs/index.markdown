@@ -34,6 +34,10 @@ layout: home
 <section class="page-section section-tint compact">
   <h2>Upcoming Events &amp; Important Dates</h2>
 
+  <button type="button" class="lightbox-trigger" data-lightbox-src="{{ "/images/onlineonly.jpeg" | relative_url }}" aria-label="Enlarge image">
+    <img src="{{ "/images/onlineonly.jpeg" | relative_url }}" alt="Online only" class="events-image">
+  </button>
+
   <section id="upcoming-events" class="upcoming-events"
            data-calendar-id="{{ site.calendar_id }}"
            data-api-key="{{ site.calendar_api_key }}">
@@ -130,7 +134,6 @@ layout: home
         <div class="candidates-grid">
           <div class="candidates-group">
             <h3 class="candidates-group-title">Running</h3>
-            <img src="{{ "/images/emily-and-shari-crop-edited.jpg" | relative_url }}" alt="Emily Ryzuk and Shari Seffer" class="candidate-photo-pair">
             <div class="candidate-card">
               <span class="candidate-name">Emily Ryzuk &amp; Shari Seffer</span>
               <a href="https://www.montvillenjdems.org/httpswwwweeblycomeditormainphp.html" target="_blank" rel="noopener">More info</a>
@@ -141,12 +144,10 @@ layout: home
           </div>
           <div class="candidates-group">
             <h3 class="candidates-group-title">Incumbents</h3>
-            <img src="{{ "/images/junewitty.jpg" | relative_url }}" alt="June Witty" class="candidate-photo-solo">
             <div class="candidate-card">
               <span class="candidate-name">June Witty</span>
               <a href="https://www.facebook.com/wittyformontville/" target="_blank" rel="noopener">More info</a>
             </div>
-            <img src="{{ "/images/mattkayne.jpg" | relative_url }}" alt="Matthew Kayne" class="candidate-photo-solo">
             <div class="candidate-card">
               <span class="candidate-name">Matthew Kayne</span>
               <a href="https://www.facebook.com/CitizensWithKayne/" target="_blank" rel="noopener">More info</a>
@@ -167,5 +168,6 @@ layout: home
 </section>
 
 <script src="{{ "/assets/js/upcoming-events.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/image-lightbox.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/photo-carousel.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/election-countdown.js" | relative_url }}"></script>
