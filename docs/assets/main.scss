@@ -863,6 +863,16 @@ body.lightbox-open {
   margin-bottom: 12px;
 }
 
+.candidate-card-detail {
+  flex-wrap: wrap;
+}
+
+.candidate-priority {
+  flex-basis: 100%;
+  margin: -6px 0 0;
+  font-size: $small-font-size;
+}
+
 .candidate-photo-pair {
   width: 100%;
   max-width: 260px;

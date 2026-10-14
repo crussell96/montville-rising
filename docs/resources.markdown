@@ -50,36 +50,46 @@ category to expand it, then click an item for more details.
           TAPinto Montville asked each of them to tell voters about themselves and what makes them
           qualified. <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">Read their answers on TAPinto</a>.
         </p>
+        <p>
+          More from TAPinto's series:
+          <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/montville-board-of-education-candidates-discuss-most-critical-challenge-in-part-two-of-series" target="_blank" rel="noopener">Part two: the candidates discuss the most critical challenge</a>.
+        </p>
 
         <div class="candidates-grid">
           <div class="candidates-group">
             <h3 class="candidates-group-title">Running</h3>
-            <div class="candidate-card">
+            <div class="candidate-card candidate-card-detail">
               <span class="candidate-name">Jennifer Shenkman</span>
               <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+              <p class="candidate-priority"><strong>Top priority:</strong> Attracting and retaining dedicated teachers and support staff.</p>
             </div>
-            <div class="candidate-card">
+            <div class="candidate-card candidate-card-detail">
               <span class="candidate-name">Ronak Trivedi</span>
               <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+              <p class="candidate-priority"><strong>Top priority:</strong> Responsible fiscal management.</p>
             </div>
-            <div class="candidate-card">
+            <div class="candidate-card candidate-card-detail">
               <span class="candidate-name">Sue Lieberman</span>
               <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+              <p class="candidate-priority"><strong>Top priority:</strong> Continually evaluating and strengthening the curriculum.</p>
             </div>
-            <div class="candidate-card">
+            <div class="candidate-card candidate-card-detail">
               <span class="candidate-name">Ryan Pisano</span>
               <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+              <p class="candidate-priority"><strong>Top priority:</strong> Facility maintenance and long-term infrastructure planning.</p>
             </div>
           </div>
           <div class="candidates-group">
             <h3 class="candidates-group-title">Incumbents</h3>
-            <div class="candidate-card">
+            <div class="candidate-card candidate-card-detail">
               <span class="candidate-name">Joseph Daughtry</span>
               <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+              <p class="candidate-priority"><strong>Top priority:</strong> Aging school buildings. A referendum is being developed for next January, with an estimated 35&ndash;40% of eligible costs covered by State funding.</p>
             </div>
-            <div class="candidate-card">
+            <div class="candidate-card candidate-card-detail">
               <span class="candidate-name">Michael Palma</span>
               <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+              <p class="candidate-priority"><strong>Top priority:</strong> The 2% budget cap. Supports a $35 million referendum for infrastructure, with 40% State aid.</p>
             </div>
           </div>
         </div>
