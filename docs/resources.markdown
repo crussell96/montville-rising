@@ -43,7 +43,50 @@ category to expand it, then click an item for more details.
       </div>
     </details>
     <details class="focus-accordion-item">
-      <summary>2. Montville Township Democratic Committee Facebook Group</summary>
+      <summary>2. Montville Board of Education Candidates</summary>
+      <div class="focus-accordion-body">
+        <p>
+          Six candidates are running for the Montville Township Public Schools Board of Education.
+          TAPinto Montville asked each of them to tell voters about themselves and what makes them
+          qualified. <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">Read their answers on TAPinto</a>.
+        </p>
+
+        <div class="candidates-grid">
+          <div class="candidates-group">
+            <h3 class="candidates-group-title">Running</h3>
+            <div class="candidate-card">
+              <span class="candidate-name">Jennifer Shenkman</span>
+              <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+            </div>
+            <div class="candidate-card">
+              <span class="candidate-name">Ronak Trivedi</span>
+              <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+            </div>
+            <div class="candidate-card">
+              <span class="candidate-name">Sue Lieberman</span>
+              <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+            </div>
+            <div class="candidate-card">
+              <span class="candidate-name">Ryan Pisano</span>
+              <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+            </div>
+          </div>
+          <div class="candidates-group">
+            <h3 class="candidates-group-title">Incumbents</h3>
+            <div class="candidate-card">
+              <span class="candidate-name">Joseph Daughtry</span>
+              <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+            </div>
+            <div class="candidate-card">
+              <span class="candidate-name">Michael Palma</span>
+              <a href="https://www.tapinto.net/towns/montville/sections/elections/articles/meet-your-montville-public-schools-board-of-education-candidates" target="_blank" rel="noopener">More info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </details>
+    <details class="focus-accordion-item">
+      <summary>3. Montville Township Democratic Committee Facebook Group</summary>
       <div class="focus-accordion-body">
         <p>
           <a href="https://www.facebook.com/share/g/1avFpv8GoF/" target="_blank" rel="noopener">Join the Facebook group</a>.
@@ -51,7 +94,7 @@ category to expand it, then click an item for more details.
       </div>
     </details>
     <details class="focus-accordion-item">
-      <summary>3. Montville Township First Aid Squad</summary>
+      <summary>4. Montville Township First Aid Squad</summary>
       <div class="focus-accordion-body">
         <p>
           The <a href="https://montvillefas.org/" target="_blank" rel="noopener">Montville Township First Aid Squad</a>
@@ -61,7 +104,7 @@ category to expand it, then click an item for more details.
       </div>
     </details>
     <details class="focus-accordion-item">
-      <summary>4. Say No to Data Centers in Montville</summary>
+      <summary>5. Say No to Data Centers in Montville</summary>
       <div class="focus-accordion-body">
         <p>
           Learn why we're organizing against large-scale data center development in Montville,
