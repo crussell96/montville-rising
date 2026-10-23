@@ -939,6 +939,17 @@ body.lightbox-open {
   font-size: 1.1rem;
 }
 
+.election-countdown-link {
+  flex-basis: 100%;
+  color: var(--nav-text);
+  font-weight: 600;
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--nav-text-hover);
+  }
+}
+
 // Resources page: category groups (each contains its own accordion)
 .resource-category {
   margin-bottom: 28px;

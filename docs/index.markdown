@@ -22,6 +22,7 @@ layout: home
 <section id="election-countdown" class="election-countdown" data-target="2026-11-03T00:00:00-05:00">
   <span class="election-countdown-days">–</span>
   <span class="election-countdown-label">days until the November 3, 2026 election</span>
+  <a class="election-countdown-link" href="{{ "/resources/" | relative_url }}">To view info on the local races check here</a>
 </section>
 
 <div class="take-action-box">
@@ -33,10 +34,6 @@ layout: home
 
 <section class="page-section section-tint compact">
   <h2>Upcoming Events &amp; Important Dates</h2>
-
-  <button type="button" class="lightbox-trigger" data-lightbox-src="{{ "/images/onlineonly.jpeg" | relative_url }}" aria-label="Enlarge image">
-    <img src="{{ "/images/onlineonly.jpeg" | relative_url }}" alt="Online only" class="events-image">
-  </button>
 
   <section id="upcoming-events" class="upcoming-events"
            data-calendar-id="{{ site.calendar_id }}"

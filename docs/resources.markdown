@@ -16,27 +16,31 @@ category to expand it, then click an item for more details.
       <summary>1. Montville Township Committee</summary>
       <div class="focus-accordion-body">
         <p>
-          Emily Ryzuk and Shari Seffer are running for Montville Township Committee against incumbents
-          June Witty and Matthew Kayne.
+          Four candidates are running for Montville Township Committee. TAPinto Montville is running
+          a series of articles where they ask the candidates five questions.
         </p>
+        <ul>
+          <li><a href="https://www.tapinto.net/towns/montville/sections/elections/articles/tapinto-q-a-montville-township-committee-candidates-outline-their-experience-ahead-of-election-day" target="_blank" rel="noopener">Question #1</a>: Tell us something about yourself and what makes you qualified for the position of Township Committee member?</li>
+          <li><a href="https://www.tapinto.net/towns/montville/sections/elections/articles/tapinto-q-a-what-is-the-most-important-issue-facing-montville" target="_blank" rel="noopener">Question #2</a>: What is the most important issue in this election and why?</li>
+        </ul>
 
         <div class="candidates-grid">
           <div class="candidates-group">
             <h3 class="candidates-group-title">Running</h3>
             <div class="candidate-card">
-              <span class="candidate-name">Emily Ryzuk &amp; Shari Seffer</span>
-              <a href="https://www.montvillenjdems.org/httpswwwweeblycomeditormainphp.html" target="_blank" rel="noopener">More info</a>
+              <span class="candidate-name">Emily Ryzuk</span>
+            </div>
+            <div class="candidate-card">
+              <span class="candidate-name">Shari Seffer</span>
             </div>
           </div>
           <div class="candidates-group">
             <h3 class="candidates-group-title">Incumbents</h3>
             <div class="candidate-card">
               <span class="candidate-name">June Witty</span>
-              <a href="https://www.facebook.com/wittyformontville/" target="_blank" rel="noopener">More info</a>
             </div>
             <div class="candidate-card">
               <span class="candidate-name">Matthew Kayne</span>
-              <a href="https://www.facebook.com/CitizensWithKayne/" target="_blank" rel="noopener">More info</a>
             </div>
           </div>
         </div>
