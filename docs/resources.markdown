@@ -22,6 +22,7 @@ category to expand it, then click an item for more details.
         <ul>
           <li><a href="https://www.tapinto.net/towns/montville/sections/elections/articles/tapinto-q-a-montville-township-committee-candidates-outline-their-experience-ahead-of-election-day" target="_blank" rel="noopener">Question #1</a>: Tell us something about yourself and what makes you qualified for the position of Township Committee member?</li>
           <li><a href="https://www.tapinto.net/towns/montville/sections/elections/articles/tapinto-q-a-what-is-the-most-important-issue-facing-montville" target="_blank" rel="noopener">Question #2</a>: What is the most important issue in this election and why?</li>
+          <li><a href="https://www.tapinto.net/towns/montville/sections/elections/articles/montville-election-q-a-how-candidates-plan-to-balance-township-services-and-local-taxes" target="_blank" rel="noopener">Question #3</a>: What strategies do you support to maintain high-quality municipal services &ndash; such as public safety, road paving and park maintenance &ndash; while keeping taxes manageable for residents?</li>
         </ul>
 
         <div class="candidates-grid">
